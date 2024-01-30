@@ -422,10 +422,9 @@ left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
-url = '/pages/mapa.html'
+st.link_button("Go to gallery", "https://streamlit.io/gallery")
 
-if st.button('Aguascalientes-mapa'):
-    webbrowser.open_new_tab(url)
+
 
 
 # ---- HIDE STREAMLIT STYLE ----
