@@ -420,7 +420,7 @@ left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
-st.link_button("Baja California Sur", "https://aguascalientes-mapa.000webhostapp.com/")
+st.link_button("Baja California Sur", "https://drive.google.com/drive/folders/1m39mU6TSzW_Mc7TWtWMTR3NxzT3eUqLZ?usp=sharing/mapa2.html")
 
 
 # ---- HIDE STREAMLIT STYLE ----
