@@ -422,7 +422,7 @@ left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
-url = 'mapa.html'
+url = 'https://github.com/todosparaunoSPE/mapa-2020-CENSO-INEGI/mapa.html'
 
 if st.button('Aguascalientes-mapa'):
     webbrowser.open_new_tab(url)
