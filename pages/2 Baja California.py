@@ -421,10 +421,6 @@ right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
 
-url = 'mapa1.html'
-
-if st.button('Baja California-mapa'):
-    webbrowser.open_new_tab(url)
 
 
 
