@@ -420,7 +420,7 @@ left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
-st.link_button("Baja California Sur", "https://drive.google.com/drive/folders/1m39mU6TSzW_Mc7TWtWMTR3NxzT3eUqLZ")
+st.link_button("Baja California Sur", "https://2z6f2lrzc5fegrmyunpt2q.on.drv.tw/html/mapa2.html")
 
 
 # ---- HIDE STREAMLIT STYLE ----
