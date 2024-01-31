@@ -420,7 +420,7 @@ left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
-st.link_button("Baja California-mapa", "https://mapa-2020-censo-inegi-1.000webhostapp.com/")
+st.link_button("Baja California-mapa", "https://2z6f2lrzc5fegrmyunpt2q.on.drv.tw/html/mapa1.html")
 
 
 
