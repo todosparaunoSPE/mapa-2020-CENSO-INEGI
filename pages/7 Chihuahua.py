@@ -9,7 +9,7 @@ import pandas as pd  # pip install pandas openpyxl
 import plotly.express as px  # pip install plotly-express
 import streamlit as st  # pip install streamlit
 
-
+import webbrowser
 
 
 # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -419,6 +419,11 @@ left_column, right_column = st.columns(2)
 left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
+
+url = 'mapa.html'
+
+if st.button('Aguascalientes-mapa'):
+    webbrowser.open_new_tab(url)
 
 
 
