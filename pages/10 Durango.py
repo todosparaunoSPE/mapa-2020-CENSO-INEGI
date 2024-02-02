@@ -9,7 +9,7 @@ import pandas as pd  # pip install pandas openpyxl
 import plotly.express as px  # pip install plotly-express
 import streamlit as st  # pip install streamlit
 
-
+import webbrowser
 
 
 # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -420,7 +420,7 @@ left_column.plotly_chart(fig11, use_container_width=True)
 right_column.plotly_chart(fig12, use_container_width=True)
 ############################################################################################
 
-st.link_button("Colima-mapa", "https://2z6f2lrzc5fegrmyunpt2q.on.drv.tw/html/Durango.html")
+st.link_button("Durango-mapa", "https://2z6f2lrzc5fegrmyunpt2q.on.drv.tw/html/Durango.html")
 
 
 # ---- HIDE STREAMLIT STYLE ----
