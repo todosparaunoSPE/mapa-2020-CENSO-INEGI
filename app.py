@@ -46,6 +46,8 @@ st.header("POBLACIÓN ECONÓMICAMENTE ACTIVA")
 
 st.subheader(" ")
 st.subheader(" ")
+st.subheader(" ")
+st.subheader(" ")
 
 col1, col2, col3 = st.columns(3)
 
