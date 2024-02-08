@@ -47,8 +47,19 @@ st.header("POBLACIÓN ECONÓMICAMENTE ACTIVA")
 st.subheader(" ")
 st.subheader(" ")
 
+col1, col2, col3 = st.columns(3)
 
-st.image('logo.jpg')
+with col1:
+    st.write(' ')
+
+with col2:
+    st.image("logo.jpg")
+
+with col3:
+    st.write(' ')
+
+
+#st.image('logo.jpg')
 
 #st.subheader("ene-2020 a sep-2023.")
 
