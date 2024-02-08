@@ -48,6 +48,8 @@ st.subheader(" ")
 st.subheader(" ")
 
 
+st.image('logo.jpg')
+
 #st.subheader("ene-2020 a sep-2023.")
 
 ###st.subheader("INTRODUCCIÓN.")
